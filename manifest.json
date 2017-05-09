@@ -1,10 +1,10 @@
 {
   "manifestVersion": "1.0",
   "version": "1.0",
-  "id": "15ccf1b0-3111-11e7-93ae-92361f002671",
+  "id": "Your Teams app id",
   "packageName": "com.skype.teams.samples.facebookEvent",
   "developer": {
-    "name": "Mao Yu",
+    "name": "Your name",
     "websiteUrl": "https://composeextensionauth.azurewebsites.net/",
     "privacyUrl": "https://composeextensionauth.azurewebsites.net/privacy",
     "termsOfUseUrl": "https://composeextensionauth.azurewebsites.net/termsofuse"
@@ -24,7 +24,7 @@
   "accentColor": "#ff6a00",
   "composeExtensions": [
     {
-      "botId": "073b9db9-6046-42ef-a92f-8b4473ec4b76",
+      "botId": "Your bot framework app id",
       "description": "Insert Facebook Event into Teams",
       "scopes": [
         "personal",
@@ -52,7 +52,6 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "54f79f79.ngrok.io",
-    "composeextensionauth.azurewebsites.net"
+    "Your host domain"
   ]
 }
