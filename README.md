@@ -8,7 +8,7 @@ It uses Facebook Event as an example, to search for an event, ans insert it as a
 3. Register a Facebook app at https://developers.facebook.com, and add your host domain to the app settings.
 4. Clone/download this project. Update src/config.json with the bot framework app id/password, as well as Facebook client id/secret, and your host domain.
 5. Run the following npm command to start the node server:
-npm install -g ts-node
-npm install -g typescript
-npm install
-npm start
+<br>npm install -g ts-node
+<br>npm install -g typescript
+<br>npm install
+<br>npm start
