@@ -1,0 +1,58 @@
+{
+  "manifestVersion": "1.0",
+  "version": "1.0",
+  "id": "15ccf1b0-3111-11e7-93ae-92361f002671",
+  "packageName": "com.skype.teams.samples.facebookEvent",
+  "developer": {
+    "name": "Mao Yu",
+    "websiteUrl": "https://composeextensionauth.azurewebsites.net/",
+    "privacyUrl": "https://composeextensionauth.azurewebsites.net/privacy",
+    "termsOfUseUrl": "https://composeextensionauth.azurewebsites.net/termsofuse"
+  },
+  "name": {
+    "short": "Facebook Event",
+    "long": "Facebook Event"
+  },
+  "description": {
+    "short": "Insert Facebook event as cards",
+    "full": "Insert Facebook event as cards"
+  },
+  "icons": {
+    "outline": "https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png",
+    "color": "https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png"
+  },
+  "accentColor": "#ff6a00",
+  "composeExtensions": [
+    {
+      "botId": "073b9db9-6046-42ef-a92f-8b4473ec4b76",
+      "description": "Insert Facebook Event into Teams",
+      "scopes": [
+        "personal",
+        "team"
+      ],
+      "commands": [
+        {
+          "title": "Insert Facebook event",
+          "description": "Insert Facebook event",
+          "id": "insertFbEvent",
+          "initialRun": true,
+          "parameters": [
+            {
+              "name": "searchKeyword",
+              "title": "Search for event",
+              "description": "Search for event"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "54f79f79.ngrok.io",
+    "composeextensionauth.azurewebsites.net"
+  ]
+}
